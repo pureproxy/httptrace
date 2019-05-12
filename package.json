@@ -1,0 +1,41 @@
+{
+  "name": "@pureproxy/httptrace",
+  "version": "1.0.0",
+  "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
+  "bin": {
+    "httptrace": "bin/httptrace.js"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pureproxy/httptrace.git"
+  },
+  "keywords": [
+    "proxy",
+    "server",
+    "stream",
+    "http",
+    "https",
+    "websocket",
+    "websockets",
+    "mitm",
+    "tls",
+    "ssl"
+  ],
+  "author": "pdparchitect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pureproxy/httptrace/issues"
+  },
+  "homepage": "https://github.com/pureproxy/httptrace#readme",
+  "dependencies": {
+    "@pureproxy/mitmproxy": "^1.0.3",
+    "@pureproxy/utils": "^1.0.1"
+  }
+}
