@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const HttpTrace = require('../lib/index')
 
 const server = new HttpTrace()
