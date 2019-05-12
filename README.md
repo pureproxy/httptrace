@@ -32,3 +32,12 @@ To define the default listening port, provide a `PORT` environment variable:
 ```
 $ PORT=8888 httptrace
 ```
+
+Set the proxy settings to `localhost:8888` or `localhost:8080` in default configuration. This is how you can do it for command line tools such as curl:
+
+```
+export http_proxy=http://localhost:8080
+export https_proxy=http://localhost:8080
+```
+
+All requests and responses that pass through the proxy will be serialised to files in the current work directory.
