@@ -2,6 +2,10 @@
   "name": "@pureproxy/httptrace",
   "version": "1.0.0",
   "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 11"
+  },
   "bin": {
     "httptrace": "bin/httptrace.js"
   },
