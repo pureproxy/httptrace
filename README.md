@@ -41,3 +41,5 @@ export https_proxy=http://localhost:8080
 ```
 
 All requests and responses that pass through the proxy will be serialised to files in the current work directory.
+
+HttpTrace will cluster. It will start sub-processes up-to the number of CPUs you have. This is prefered for optimal performance.
