@@ -1,6 +1,6 @@
 {
   "name": "@pureproxy/httptrace",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
   "engineStrict": true,
   "engines": {
