@@ -39,7 +39,8 @@
   },
   "homepage": "https://github.com/pureproxy/httptrace#readme",
   "dependencies": {
-    "@pureproxy/mitmproxy": "^1.0.3",
+    "@pureproxy/mitmproxy": "^1.1.0",
+    "@pureproxy/pureproxy": "^1.1.0",
     "@pureproxy/utils": "^1.0.1"
   }
 }
