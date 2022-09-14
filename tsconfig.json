@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": [
+      "es2020"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "module": "es2020",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./types"
+  },
+  "include": [
+    "lib/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
