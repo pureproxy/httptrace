@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import os from 'os'
 import cluster from 'cluster'
 
 import HttpTrace from '../lib/index.js'
@@ -7,7 +8,7 @@ import HttpTrace from '../lib/index.js'
 if (cluster.isMaster) {
   console.log(`* master ${process.pid} started`)
 
-  const cpus = require('os').cpus().length
+  const cpus = os.cpus().length
 
   for (let i = 0; i < cpus; i++) {
     cluster.fork()
